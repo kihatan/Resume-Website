@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+<!--
+if (screen.width <= 900) {
+document.location = "mobile.html";
+}
+//-->
+  </script>
+
+
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.lightbox.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 
+  <meta name="viewport" content="width = device-width, initial-scale=1, user-scalable=no" />
+ 
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap.lightbox.js"></script>
+
+  <link rel="shortcut icon" href="images/icon.ico">
+
+  <title>Kihata Noah Resume</title>
+
+</head>
+<body background="Images/noise.png">
+<div id = "wrapper">
+
+  <div class = "row">
+    <div class = "col-md-10">
+
+      <div class="jumbotron" background="Images/j.jpg">
+        <h1 style= "color:white" >Noah Kihata</h1>
+      </div>
+    </div>
+    <div class = "col-md-2 kim">
+
+      <ul>
+        <img style = "width: 25px;height:25px" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/mail-512.png"/><a align = "left" href = "mailto:kihatan@gmail.com" target = "_blank" style = "color:black; font-size:20px">   kihatan@umich.edu</a><br>
+        <img style = "width: 25px;height:25px" src= "Images/phone.png"/><a align = "left" href= "tel:(989) 600-0128" style = "color:black; font-size:20px">   (989) 600-0128</a><br>
+        <img style = "width: 25px;height:25px" src= "Images/linkedin.png"/><a align = "left" href = "https://www.linkedin.com/profile/view?id=132277628&trk=nav_responsive_tab_profile" target="_blank" style = "color:black; font-size:20px">   LinkedIn</a><br>
+        <img style = "width: 25px;height:25px" src= "Images/blacktocat.png"/><a align = "left" href ="https://github.com/kihatan" target="_blank" style = "color:black; font-size:20px">   Github</a><br>
+        <img style = "width: 25px;height:25px" src= "Images/stock.png"/><a align = "left" href="http://stackoverflow.com/users/4112079/noah-kihata" target="_blank" style = "color:black; font-size:20px">   Stack Overflow</a><br>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+  <ul class="nav nav-tabs" align="center">
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#edu">Education</a></li>
+    <li><a href="#trans">Transcript</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#call">References</a></li>
+    <li><a href="#web">Website Mockups</a></li>
+    <li><a href="#prog">Programming Projects</a></li>
+    <li><a href="#photo">Photo Editing</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane fade in active" id="resume"></div>
+    <div class="tab-pane fade" id= "trans"></div>
+    <div class="tab-pane fade" id= "edu"></div>
+    <div class="tab-pane fade" id= "prog"></div>
+    <div class="tab-pane fade" id= "call"></div>
+    <div class="tab-pane fade" id= "interests"></div>
+    <div class="tab-pane fade" id= "photo"></div>
+    <div class="tab-pane fade" id= "web"></div>
+    <div class="tab-pane fade" id= "skills"></div>
+  </div>
+
+
+
+  <script type="text/javascript"> 
+  $('.nav-tabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  }) 
+  </script>
+
+  <script> 
+  $(function(){
+    $("#resume").load("resume.html"); 
+    $("#edu").load("edu.html");
+    $("#trans").load("trans.html");
+    $("#interests").load("interests.html");
+    $("#skills").load("skills.html");
+    $("#call").load("references.html");
+    $("#web").load("web.html");
+    $("#prog").load("prog.html"); 
+    $("#photo").load("photo.html");
+  });
+  </script> 
+
+
+
+  
+</div>
+</body>
+</html>
+

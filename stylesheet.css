@@ -1,0 +1,76 @@
+.nav-tabs{
+	border-bottom-style: none;
+	vertical-align: center;
+}
+.table_font > td{
+	font-style: bold;
+	font-size: 90px;
+}
+
+.mylist{
+	padding-top: 30px;
+}
+.kim{
+
+	padding-top: .15%;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.nav{
+
+	vertical-align: center;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+.pull-center{
+
+	float: center;
+}
+.Header{
+	margin-top: 0px;
+  	margin-bottom: 0px;
+  	color: inherit;
+  	background-color: rgb(3,2,56);
+
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding:0px;
+    margin-top: 0px;
+    border:0px;
+  }
+  .container .Header {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .Header > h1{
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  }
+}
+
+.dropdown-menu.pull-center {
+  right: 30%;
+  left: 30%;
+}
+
+.dropdown-menu.pull-middle.pull-center {
+  right: 50%;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
