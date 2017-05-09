@@ -110,7 +110,7 @@ body {
     background: white;
     border-width: 1px;
     border-style: solid;
-    padding: 4vh;
+    padding: 2vh;
 }
 
 .rcorners h1{
@@ -200,25 +200,25 @@ div.slideOutTab p {
 }
 
 div.o1{
-  top: 20%;
+  top: 15%;
 }
-div.o2{
+/*div.o2{
   top: 30%;
-}
+}*/
 div.o3{
-  top: 40%;
+  top: 25%;
 }
 div.o4{
-  top: 50%;
+  top: 35%;
 }
 div.o5{
-  top: 60%;
+  top: 45%;
 }
 div.o6{
-  top: 70%;
+  top: 55%;
 }
 div.o7{
-  top: 80%;
+  top: 70%;
 }
 
 .tab-pane{
@@ -244,11 +244,11 @@ div.o7{
 }*/
 
 .gap3{
-  padding-top: 5vh;
+  padding-top: 1vh;
 }
 
 .gap4{
-  padding-top: 5vh;
+  padding-top: 1vh;
 }
 
 td {
@@ -260,7 +260,7 @@ td {
 }
 
 .indent2{
-  padding-left: 2.2vw;
+  padding-left: 4vw;
 }
 
 .indent3{
@@ -288,8 +288,8 @@ td {
 
 .mobtitle{
   margin:0px;
-  padding-top:1vh;
-  padding-bottom:1vh;
+  padding-top:.5vh;
+  padding-bottom:.5vh;
   position:fixed;
   z-index: 100;
   background: rgb(3,2,56); 
